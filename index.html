@@ -2,64 +2,360 @@
 <html lang="id">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<meta name="theme-color" content="#1e40af">
+<meta name="robots" content="index, follow">
 <title>Servis Kulkas Jepara Terpercaya | Service Cepat & Bergaransi</title>
-<meta name="description" content="Jasa servis kulkas Jepara profesional. Perbaikan kulkas tidak dingin, isi freon, dan servis cepat dengan teknisi berpengalaman.">
-
+<meta name="description" content="Jasa servis kulkas di Jepara profesional. Perbaikan kulkas tidak dingin, isi freon, bocor, mati total. Teknisi berpengalaman, harga transparan, garansi 3 bulan. Hubungi 0822-9921-2111.">
 <link rel="canonical" href="https://serviscepat-jepara.com/">
 
-<meta property="og:title" content="Servis Kulkas Jepara Terpercaya">
-<meta property="og:description" content="Layanan servis kulkas cepat & profesional di Jepara.">
-<meta property="og:image" content="https://serviscepat-jepara.com/og-image.jpg">
+<!-- Open Graph / Facebook -->
+<meta property="og:title" content="Servis Kulkas Jepara Terpercaya | Service Cepat & Bergaransi">
+<meta property="og:description" content="Servis kulkas cepat & profesional di Jepara. Free survey, garansi 3 bulan, teknisi berpengalaman. Telp 0822-9921-2111.">
 <meta property="og:url" content="https://serviscepat-jepara.com/">
 <meta property="og:type" content="website">
+<meta property="og:locale" content="id_ID">
 
-<meta name="theme-color" content="#1e40af">
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Servis Kulkas Jepara Terpercaya">
+<meta name="twitter:description" content="Servis kulkas cepat & profesional di Jepara. Hubungi 0822-9921-2111 sekarang!">
+
+<style>
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+    background: #f8fafc;
+    color: #0f172a;
+    line-height: 1.5;
+    scroll-behavior: smooth;
+  }
+
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1.5rem;
+  }
+
+  .header {
+    background: linear-gradient(135deg, #1e3a8a 0%, #1e40af 100%);
+    color: white;
+    padding: 2rem 0;
+    text-align: center;
+    border-bottom: 4px solid #facc15;
+  }
+
+  .header h1 {
+    font-size: 1.8rem;
+    margin-bottom: 0.5rem;
+    font-weight: 700;
+  }
+
+  .header p {
+    font-size: 1.1rem;
+    opacity: 0.95;
+    margin-bottom: 1.5rem;
+  }
+
+  .btn-group {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.75rem 1.5rem;
+    border-radius: 9999px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+
+  .btn-primary {
+    background: #facc15;
+    color: #1e3a8a;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  }
+
+  .btn-primary:hover {
+    transform: scale(1.02);
+    background: #fbbf24;
+    box-shadow: 0 8px 15px rgba(0,0,0,0.15);
+  }
+
+  .btn-outline {
+    background: transparent;
+    border: 2px solid white;
+    color: white;
+  }
+
+  .btn-outline:hover {
+    background: rgba(255,255,255,0.1);
+    transform: scale(1.02);
+  }
+
+  .section {
+    padding: 3rem 0;
+  }
+
+  .section-alt {
+    background: white;
+  }
+
+  .section-title {
+    font-size: 1.8rem;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 2rem;
+    color: #0f172a;
+    position: relative;
+  }
+
+  .section-title:after {
+    content: '';
+    display: block;
+    width: 60px;
+    height: 4px;
+    background: #facc15;
+    margin: 0.5rem auto 0;
+    border-radius: 2px;
+  }
+
+  .grid-2, .grid-3 {
+    display: grid;
+    gap: 1.8rem;
+  }
+
+  .grid-2 {
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  }
+
+  .grid-3 {
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  }
+
+  .card {
+    background: #ffffff;
+    border-radius: 1rem;
+    padding: 1.5rem;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+    transition: all 0.3s ease;
+    border: 1px solid #e2e8f0;
+  }
+
+  .card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 20px 25px -12px rgba(0,0,0,0.1);
+  }
+
+  .service-icon, .reason-icon {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+
+  .card h3 {
+    font-size: 1.3rem;
+    margin-bottom: 0.75rem;
+    color: #1e3a8a;
+  }
+
+  .area-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.8rem;
+    list-style: none;
+    margin-top: 1rem;
+  }
+
+  .area-list li {
+    background: #e0f2fe;
+    padding: 0.4rem 1rem;
+    border-radius: 30px;
+    font-weight: 500;
+    color: #0369a1;
+  }
+
+  .contact-info {
+    background: #1e293b;
+    color: white;
+    text-align: center;
+    border-radius: 1rem;
+    padding: 2rem;
+  }
+
+  .contact-info p {
+    margin: 0.5rem 0;
+  }
+
+  .contact-info a {
+    color: #facc15;
+    text-decoration: none;
+    font-weight: 600;
+  }
+
+  .footer {
+    background: #0f172a;
+    color: #94a3b8;
+    text-align: center;
+    padding: 1.8rem;
+    font-size: 0.85rem;
+    border-top: 1px solid #334155;
+  }
+
+  @media (max-width: 640px) {
+    .header h1 { font-size: 1.4rem; }
+    .section-title { font-size: 1.5rem; }
+    .btn { padding: 0.6rem 1.2rem; font-size: 0.9rem; }
+  }
+</style>
 </head>
-
 <body>
 
-<h1>Jasa Servis Kulkas Jepara Profesional & Terpercaya</h1>
+<header class="header">
+  <div class="container">
+    <h1>🔧 Servis Kulkas Jepara | Profesional & Terpercaya</h1>
+    <p>Teknisi berpengalaman • Cepat • Harga transparan • Garansi 3 bulan</p>
+    <div class="btn-group">
+      <a href="tel:082299212111" class="btn btn-primary">📞 Call Sekarang (0822-9921-2111)</a>
+      <a href="https://wa.me/6282299212111?text=Halo%2C%20saya%20butuh%20servis%20kulkas%20di%20Jepara" target="_blank" rel="noopener noreferrer" class="btn btn-outline">💬 WhatsApp</a>
+    </div>
+  </div>
+</header>
 
-<p>
-Kami menyediakan layanan servis kulkas di Jepara dengan teknisi berpengalaman.
-Melayani perbaikan kulkas tidak dingin, bocor, mati total, hingga pengisian freon.
-Pelayanan cepat, harga terjangkau, dan bergaransi.
-</p>
+<main>
+  <section class="section">
+    <div class="container">
+      <h2 class="section-title">Layanan Servis Kulkas Kami</h2>
+      <div class="grid-2">
+        <div class="card">
+          <div class="service-icon">❄️</div>
+          <h3>Kulkas Tidak Dingin</h3>
+          <p>Diagnosis & perbaikan kompresor, termostat, atau kebocoran freon.</p>
+        </div>
+        <div class="card">
+          <div class="service-icon">⚡</div>
+          <h3>Isi Freon Kulkas</h3>
+          <p>Pengisian freon R134a, R600a dengan tekanan akurat dan anti bocor.</p>
+        </div>
+        <div class="card">
+          <div class="service-icon">💧</div>
+          <h3>Perbaikan Kulkas Bocor</h3>
+          <p>Atasi genangan air & kebocoran refrigeran secara permanen.</p>
+        </div>
+        <div class="card">
+          <div class="service-icon">🔌</div>
+          <h3>Servis Mati Total</h3>
+          <p>Perbaikan PCB, kabel, start relay, dan komponen kelistrikan.</p>
+        </div>
+      </div>
+    </div>
+  </section>
 
-<h2>Layanan Servis Kulkas</h2>
-<ul>
-<li>Perbaikan kulkas tidak dingin</li>
-<li>Isi freon kulkas</li>
-<li>Perbaikan kulkas bocor</li>
-<li>Servis kulkas mati total</li>
-</ul>
+  <section class="section section-alt">
+    <div class="container">
+      <h2 class="section-title">Kenapa Pilih Kami?</h2>
+      <div class="grid-3">
+        <div class="card">
+          <div class="reason-icon">👨‍🔧</div>
+          <h3>Teknisi Berpengalaman</h3>
+          <p>Tim ahli dengan pelatihan resmi dan pengalaman 8+ tahun.</p>
+        </div>
+        <div class="card">
+          <div class="reason-icon">⏱️</div>
+          <h3>Respon Cepat</h3>
+          <p>Datang tepat waktu sesuai jadwal, service di tempat atau bawa ke bengkel.</p>
+        </div>
+        <div class="card">
+          <div class="reason-icon">💰</div>
+          <h3>Harga Transparan</h3>
+          <p>Estimasi biaya di awal tanpa biaya tersembunyi.</p>
+        </div>
+        <div class="card">
+          <div class="reason-icon">✅</div>
+          <h3>Garansi 3 Bulan</h3>
+          <p>Garansi untuk setiap servis yang kami kerjakan.</p>
+        </div>
+        <div class="card">
+          <div class="reason-icon">📍</div>
+          <h3>Area Jepara Raya</h3>
+          <p>Melayani seluruh kecamatan di Kabupaten Jepara.</p>
+        </div>
+        <div class="card">
+          <div class="reason-icon">🛠️</div>
+          <h3>Sparepart Original</h3>
+          <p>Menggunakan komponen berkualitas dan original.</p>
+        </div>
+      </div>
+    </div>
+  </section>
 
-<h2>Kenapa Memilih Kami?</h2>
-<p>
-Teknisi berpengalaman, respon cepat, harga transparan, dan bergaransi.
-Siap melayani area Jepara dan sekitarnya.
-</p>
+  <section class="section">
+    <div class="container">
+      <h2 class="section-title">Area Layanan di Jepara</h2>
+      <ul class="area-list">
+        <li>Jepara Kota</li><li>Mayong</li><li>Nalumsari</li><li>Welahan</li>
+        <li>Pecangaan</li><li>Keling</li><li>Mlonggo</li><li>Bangsri</li>
+        <li>Kembang</li><li>Donorojo</li><li>Pakis Aji</li><li>Tahunan</li>
+      </ul>
+      <p style="text-align:center; margin-top:1rem;">+ daerah sekitarnya. Free survey untuk wilayah tertentu!</p>
+    </div>
+  </section>
 
-<h2>Area Layanan</h2>
-<p>
-Seluruh wilayah Jepara dan sekitarnya.
-</p>
+  <section class="section section-alt">
+    <div class="container">
+      <div class="contact-info">
+        <h3 style="color:#facc15; margin-bottom:1rem;">📞 Hubungi Kami Sekarang</h3>
+        <p>📱 Telepon / WhatsApp: <a href="tel:082299212111">0822-9921-2111</a></p>
+        <p>✉️ Email: cs@serviscepat-jepara.com</p>
+        <p>🕒 Jam Servis: Senin - Sabtu (08.00 - 17.00) | Minggu & Hari Besar Tutup</p>
+        <p>📍 Alamat: Jl. Raya Jepara No. 123 (Google Maps tersedia)</p>
+        <div class="btn-group" style="margin-top: 1.5rem;">
+          <a href="tel:082299212111" class="btn btn-primary">📞 Telepon 0822-9921-2111</a>
+          <a href="https://wa.me/6282299212111?text=Halo%20saya%20butuh%20servis%20kulkas" target="_blank" rel="noopener noreferrer" class="btn btn-outline" style="border-color:#facc15; color:#facc15;">💬 Chat WhatsApp</a>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <p>&copy; 2025 Servis Cepat Jepara - Layanan Servis Kulkas Profesional. All rights reserved.</p>
+  <p>Dikelola oleh teknisi berpengalaman & terpercaya di Jepara.</p>
+</footer>
 
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "LocalBusiness",
   "name": "Servis Cepat Jepara",
-  "telephone": "08xxxxxxxxxx",
+  "telephone": "+6282299212111",
+  "email": "cs@serviscepat-jepara.com",
   "address": {
     "@type": "PostalAddress",
+    "streetAddress": "Jl. Raya Jepara No. 123",
     "addressLocality": "Jepara",
+    "addressRegion": "Jawa Tengah",
+    "postalCode": "59411",
     "addressCountry": "ID"
-  }
+  },
+  "priceRange": "Rp 50.000 - Rp 500.000",
+  "openingHours": "Mo-Sa 08:00-17:00",
+  "areaServed": {
+    "@type": "City",
+    "name": "Jepara"
+  },
+  "url": "https://serviscepat-jepara.com/"
 }
 </script>
-
 </body>
 </html>

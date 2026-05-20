@@ -1,0 +1,22 @@
+{
+  "name": "servisce-cepat-jepara",
+  "version": "1.0.0",
+  "description": "Servis AC, Kulkas, Mesin Cuci, Showcase & Box Freezer Jepara",
+  "type": "module",
+  "scripts": {
+    "build": "echo 'No build step required for static site'",
+    "lint": "echo 'No linter configured'",
+    "test": "echo 'No tests configured'"
+  },
+  "keywords": [
+    "service",
+    "jepara",
+    "ac",
+    "kulkas"
+  ],
+  "author": "Servis Cepat Jepara",
+  "license": "ISC",
+  "dependencies": {
+    "@vercel/speed-insights": "^2.0.0"
+  }
+}
